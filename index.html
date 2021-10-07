@@ -1,0 +1,440 @@
+<!doctype html>
+
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/base.css">
+
+        <!-- Fav icon -->
+        <link rel="shortcut icon" type="image/png" href='images/favicon.ico' />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <title>GuAI</title>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="64.5">
+
+    <!-- header -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="images/home_logo.png" alt="Logo GuAI">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#graphs">Grafos</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="{% url 'pages:home' %}#blog">Blog</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-guai" href="#footer">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- /header -->
+
+    <style>
+        .scrolling-wrapper {
+            overflow-x: auto;
+        }
+    </style>
+    
+    <!-- Main -->
+    <main id="home">
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 min-vh-100" src='images/home_carousel.jpg' alt="">
+                </div>
+                <div id="overlay" class="overlay">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 offset-md-6 text-center text-md-right">
+                                <h1 style="font-weight: bold;" class="display-5">EL PODER DE LOS DATOS</h1>
+                                <p style="font-size:large" >Diseñamos e implementamos sus proyectos de datos en la nube para que pueda usarlos en
+                                    aplicaciones puestas en producción.</p>
+                                <a href="#services" class="btn btn-guai">Ver más</a>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- /Main -->
+    
+    <div style="background-color: black; height:60px; width:100%"></div>
+    
+    <!-- Services -->
+    <section id="services" class="mt-4">
+        <div class="container">
+            <div class="row vertical-center">
+                <div style="color: white;" class="col text-center text-uppercase mb-2">
+                    <!-- <small>Nuestros</small> -->
+                    <h2 style="color: white;"><b>Servicios</b></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+    
+    
+                    <div style="background-color:#1a1a1aff;" class="card" >
+                        <img class="card-img-top" src='images/data-science.png' alt="Card image cap">
+                        <div class="card-body">
+                          <h5 style="color: white;" class="card-title"><b>Ciencia de datos</b></h5>
+                          <p style="color: white;" class="card-text">Preparamos y analizamos los datos de su organización para encontrar soluciones a sus retos empresariales.</p>
+                        </div>
+                      </div>
+    
+    
+                        <!-- <div class="card border-dark mb-3">
+                            <div class="card-header"><span class="badge badge-primary">Entendimiento</span></div>
+                            <img class="d-block w-100" src="{% static 'images/cloud-computing.png' %}" alt="Network 1">
+                            <div class="card-body text-dark">
+                                <h5 class="card-title">Recolección y limpieza de datos</h5>
+                                <p class="card-text">Entedemos los problemas de su negocio y preparamos sus datos para obtener
+                                    soluciones a partir de ellos.</p>
+                                <a href="servicios-entendimiento" class="btn btn-guai">Conoce más</a>
+                            </div>
+                        </div> -->
+    
+                </div>
+    
+                <div class="col-12 col-md-4 mb-4">
+    
+                    <div style="background-color:#1a1a1aff;" class="card" >
+                        <img class="card-img-top" src='images/cloud-computing.png' alt="Card image cap">
+                        <div class="card-body">
+                          <h5 style="color: white;" class="card-title"><b>Computación en la nube</b></h5>
+                          <p style="color: white;"   class="card-text">Desarrollamos arquitecturas en la nube para que reduzca costos y pueda escalar sus proyectos de datos.</p>
+                        </div>
+                      </div>
+    
+                    <!-- <div class="card border-dark mb-3">
+                        <div class="card-header"><span class="badge badge-success">Modelamiento</span></div>
+                        <div class="card-body text-dark">
+                            <h5 class="card-title">Exploración y modelamiento</h5>
+                            <p class="card-text">Llevamos a cabo análisis descriptivos, predictivos y prescriptivos a partir
+                                de modelos estadísticos y algorítmicos.</p>
+                            <a href="servicios-modelamiento" class="btn btn-guai">Conoce más</a>
+                        </div>
+                    </div> -->
+                </div>
+    
+                <div class="col-12 col-md-4 mb-4">
+    
+                    <div style="background-color:#1a1a1aff;" class="card" >
+                        <img class="card-img-top" src='images/end2end.png' alt="Card image cap">
+                        <div class="card-body">
+                          <h5 style="color: white;" class="card-title"><b>Soluciones End-to-End</b></h5>
+                          <p style="color: white;" class="card-text">Implementamos sus proyectos de datos para que pueda usarlos en aplicaciones puestas en producción.</p>
+                        </div>
+                      </div>
+    
+                    <!-- <div class="card border-dark mb-3">
+                        <div class="card-header"><span class="badge badge-danger">Despliegue</span></div>
+                        <div class="card-body text-dark">
+                            <h5 class="card-title">Soluciones End-To-End</h5>
+                            <p class="card-text">Implementamos sus proyectos de datos en la nube, así podrá usarlos en
+                                aplicaciones puestas en producción.</p>
+                            <a href="servicios-despliegue" class="btn btn-guai">Conoce más</a>
+                        </div>
+                    </div> -->
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Services -->
+    
+    <div style="background-color: black; height:30px; width:100%"></div>
+    
+    <!-- Grafos -->
+    <section style="background-color:black;" id="graphs" >
+        <div class="container">
+            <div class="row">
+                <div style="color: white;" class="col text-center text-uppercase mb-2">
+                    <!-- <small>El poder de los</class="mt-1"small> -->
+                    <!-- <h2 style="color: white;"><b>GRAFOS</b></h2> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section style="background-color:black;" id="network-analysis">
+        <div class="container">
+            <div class="row ">
+                <!-- <div class="col-12 col-lg-6 pl-0 pr-0">
+                    <img src="{% static 'images/graphs.png' %}" alt="Foto análisis de redes">
+                </div> -->
+                <div class="col-12 col-lg-6 pt-4 pb-4">
+                    <img src='images/graph.png' alt="Foto análisis de redes">
+                </div>
+                <div class="col-12 col-lg-6 pt-4 pb-4" >
+                    <h3 style="color: white; font-weight:bold;">¿Por qué usamos bases de datos orientadas a grafos?</h3>
+                    <div style="background-color: black; height:15px; width:100%"></div>
+                    <p style="font-size: large;">Su principal fortaleza es la gestión de las relaciones entre entidades. Esto facilita la búsqueda de patrones y mejora el rendimiento en comparación con las bases de datos relacionales.</p>
+                    <p style="font-size: large;">Algunos casos de aplicación de esta tecnología son la Detección de Fraude y los Sistemas de Recomendación en tiempo real.</p>
+                    <p style="font-size: large;">En GuAI ofrecemos soluciones basadas en bases de datos orientas a grafos para solucionar los problemas de su compañía.</p>
+                </div>
+            </div>
+        </div>
+    
+        
+    
+    
+    </section>
+    
+    <!-- <div style="background-color: white; height:40px; width:100%"></div> -->
+    
+    <!-- Grafos -->
+    
+    
+    <!-- Blog -->
+    <!-- <section id="blog" class="mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center text-uppercase mb-2">
+                    <small>Lee nuestro</small>
+                    <h2>BLOG</h2>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    
+    
+    <!-- Network analysis -->
+    <!-- <section id="">
+        <div class="container">
+    
+            <div class="row">
+    
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="{% static 'images/home_blog_comments.jpg' %}"
+                            alt="Foto análisis de redes">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-guai">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="{% static 'images/home_blog_comments.jpg' %}"
+                            alt="Foto análisis de redes">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-guai">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    
+        <div style="background-color: white; height:10px; width:100%"></div>
+    
+    
+    
+    </section> -->
+    <!-- /Network analysis -->
+    
+    <!-- /Blog -->
+    
+    <div style="background-color: white; height:30px; width:100%"></div>
+    
+    <!-- Team -->
+    <section style="background-color: white;" id="team" >
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-uppercase mb-2">
+                    <!-- <small>Conoce a nuestro</small> -->
+                    <h2 ><b>Equipo</b></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src='images/dani_photo.jpg' alt="Foto de Dani">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Daniel Gil Sánchez</b></h5>
+                            <p class="card-text">Estadístico de profesion (BSc y MSc) y programador por convicción. Experto
+                                en análisis de datos estructurados y no estructurados. Con experiencia en consultoría en
+                                el sector publico y privado. Apasionado por los grafos y sus aplicaciones en las diferentes
+                                áreas del conocimiento.
+                                <!--  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
+                                reiciendis odio repellat harum quae sed aliquid, voluptatum voluptatem excepturi,
+                                cupiditate laudantium molestias similique quas minus ex accusantium deleniti blanditiis
+                                autem.-->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src='images/alejo_photo.jpg' alt="Foto de Alejo">
+                        <div class="card-body">
+                            <!-- <h5 class="card-title"><a href="https://www.linkedin.com/in/jordan-bonnett-gomez/">José
+                                    Alejandro Sánchez</a></h5> -->
+    
+                            <h5 class="card-title"><b>Alejandro Sánchez</b></h5>
+                            <p class="card-text">Ingeniero de sistemas, magíster en Arquitecturas de Tecnologías de
+                                Información y Ciencias de la Información. 17 años de experiencia en cargos de gerencia y
+                                liderazgo en proyectos de construcción de software, soluciones de datos, arquitectura de TI
+                                y transformación digital en el sector público y privado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src='images/chris_photo.jpg' alt="Foto de Chris">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Chris Torres Montenegro</b></h5>
+                            <p class="card-text">Ingeniero (BSc y MSc) experto en ciencia de datos,
+                                inteligencia artificial y desarrollo de productos digitales. Experiencia en la resolución de
+                                problemas
+                                empresariales a partir de modelos matemáticos y datos. 10 años de experiencia en el diseño y
+                                desarrollo
+                                de productos digitales. Apasionado por aprender cosas nuevas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Team -->
+    
+    <!-- Contacto -->
+    
+    <!-- <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-uppercase mb-2">
+                    <h2>Contáctanos</h2>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="email" class="form-control" placeholder="Correo electrónico">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col form-group">
+                                <textarea name="text" class="form-control form-control-lg"
+                                    placeholder="Escribe tus preguntas"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col form-group">
+                                <button type="button" class="btn btn-muiscai btn-block">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    
+    <!-- /Contacto -->
+    <!-- Footer -->
+    <footer id="footer" class="page-footer font-small indigo">
+
+        <!-- Footer Links -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+                <!-- Grid column -->
+                <div style="color: white; " class="col-md-8 col-12 mt-5">
+                    <!-- <p style="line-height: 1.7rem; white-space:pre"><i class="fa fa-map-marker"></i> Bogotá, Colombia<br><i class="fa fa-phone"></i> 315 3623287<br><i class="fa fa-phone"></i> 319 4624068<br><i class="fa fa-phone"></i> 321 9201708
+                    </p> -->
+                    <p style="line-height: 1.7rem; white-space:pre font-size=large;"><i class="fa fa-map-marker"></i> Bogotá, Colombia<br><i class="fa fa-phone"></i> info@guai.ai<br>    
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+            <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div style="color: white;" class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="index.html"> <b style="color: #ffcc00;">guai.ai</b></a>
+        </div>
+        <!-- Copyright -->
+
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- /jQuery first, then Popper.js, then Bootstrap JS -->
+</body>
+
+</html>

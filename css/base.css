@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato&display=swap');
+
+html, body {
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* font-family: 'Roboto Mono', monospace; */
+    /* font-family: 'Asap', sans-serif; */
+    
+    color: #424242;
+    background-color: #000000;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Arvo', serif;
+    /* color: #212121; */
+    color: #000;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+#overlay h1 {
+    color: white;
+}
+
+#network-analysis h4 {
+    color: white;
+}
+
+.text-guai {
+    color: #ffcc00 !important;
+}
+
+.btn-guai {
+    background-color: #ffcc00;
+    color: #333333;
+
+}
+
+.btn-guai:hover {
+    background-color: #caa100;
+}
+
+#header {
+    background-color: #000000 !important;
+    /* background-color: #806600 !important; */
+}
+
+#header img {
+    width: 200px;
+}
+
+#home .carousel-inner img {
+    max-height: 68vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#network-analysis {
+    /* background-color: #806600; */
+    background-color: #000000;
+    color: white;
+}
+
+
+#network-analysis img {
+    max-width: 100%;
+}
+
+#footer {
+    /* background-color: #806600; */
+    background-color: #000000;
+
+
+    
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+.card-header {
+    background-color: #aa88000d !important;
+}
