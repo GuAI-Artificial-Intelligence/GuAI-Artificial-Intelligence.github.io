@@ -111,3 +111,10 @@ a {
 }
 
 
+.tv-wrapper {
+    max-width:600px;
+    max-height:338px;
+    width:90vw;
+    height:50.85vw;
+    margin:0 auto;
+  }
