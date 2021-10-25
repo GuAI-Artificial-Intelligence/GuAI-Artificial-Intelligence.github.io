@@ -207,3 +207,5 @@ a {
       height: 80% !important;
       width: 100% !important;
   }
+
+  .img-center {margin:0 auto;}
